@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="example-pkg-sarazasaraza", # Replace with your own username
+    name="intrepid-ansible", 
     version="0.99.2",
-    author="AlfoGrana",
+    author="@agrana",
     author_email="alfonso.grana@gmail.com",
-    description="A small example package",
+    description="An ansible Journey",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/example-pkg-sarazasar",
+    url="https://github.com/agrana/intrepid-ansible",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
